@@ -1,4 +1,21 @@
-
+.header{
+  height: 110vh;
+  background: url(../img/back.jpg) no-repeat center;
+  background-size: cover;
+}
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 70px;
+  background: rgb(0, 0, 0,70%);
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 html {
   color: #222;
   font-size: 1em;
@@ -351,3 +368,4 @@ button {
   background-color: red;
   width: 100%;
 }
+
